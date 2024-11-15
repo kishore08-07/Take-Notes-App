@@ -29,7 +29,7 @@ app.post("/notes", async (req, res) => {
         id: note[0]._id
     }).status(201);
 });
-
+//to update
 app.put("/notes", async (req, res) => {
     let { title, brief, _id } = req.body;
     try {
