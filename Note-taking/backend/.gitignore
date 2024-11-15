@@ -1,0 +1,39 @@
+# Node modules directory
+node_modules/
+
+# npm package-lock file (can be regenerated)
+package-lock.json
+package.json
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.swp
+*.swo
+
+# Environment variables
+.env
+
+# OS-specific files
+.DS_Store       # macOS
+Thumbs.db       # Windows
+
+# Build files (e.g. for TypeScript or bundlers like Webpack)
+dist/
+build/
+
+# IDEs or Editors
+.vscode/        # VS Code settings
+.idea/          # JetBrains IDE settings
+
+# Optional: Coveralls, testing, and coverage files
+coverage/
+
+# Optional: Docker-related files
+Dockerfile
+docker-compose.yml
+
+# Optional: Additional files you might want to ignore
+*.tgz
+*.bak

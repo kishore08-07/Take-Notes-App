@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOTE TAKING APPLICATION</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="flex">
+        <div>
+            <form action="" method="post" id="noteForm">
+                <center>
+                    <h1 style="margin: 60px 0;">Take Notes!</h1>
+                </center>
+                <div class="form-group">
+                    <label for="note-title">Title</label>
+                    <input type="text" id="note-title" maxlength="30" placeholder="Enter Title" required>
+                </div>
+                <div class="form-group">
+                    <label for="note-brief">Brief Note</label>
+                    <textarea name="note-brief" id="note-brief" rows="10" placeholder="write brief note..."
+                        style="width: 100%;padding: 10px;font-size: 14px;" required></textarea>
+                </div>
+                <center style="margin-top: 80px;">
+                    <input id="submit-button" type="submit" value="SUBMIT">
+                </center>
+            </form>
+        </div>
+        <div id="display-container" class="display-container">
+            <h2>Notes</h2>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
